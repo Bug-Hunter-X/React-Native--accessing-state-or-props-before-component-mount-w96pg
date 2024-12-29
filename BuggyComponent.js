@@ -1,0 +1,1 @@
+This error occurs when you try to access a component's state or props before it has mounted.  It often manifests as `undefined` is not an object (evaluating 'this.state.something') or similar. This typically happens when you try to use `this.state` or `this.props` within the constructor or a method called before `componentDidMount`.
